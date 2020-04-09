@@ -14,9 +14,7 @@ public class DriverFactory {
 
 	public static WebDriver driver;
 	
-	public WebDriver getDriver() {
-		
-			
+	public WebDriver getDriver() {			
 		try {
 			//Read Config
 			ReadConfigFile file = new ReadConfigFile();
